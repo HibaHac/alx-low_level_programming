@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Discription: 'print the last digit of a number'
+ *Description: 'print a text according to a number'
  *Return: always 0
  */
 int main(void)
@@ -16,15 +16,15 @@ int main(void)
 
 	if (lastd > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, lastd);
+	printf("last digit of %d is %d and is greater than 5\n", n, lastd);
 	}
 	else if (lastd == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, lastd);
+	printf("last digit of %d is %d and is 0\n", n, lastd);
 	}
 	else if (lastd < 6 && lastd != 0)
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+	printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
 	return (0);
 }
