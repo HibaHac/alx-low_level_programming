@@ -1,4 +1,5 @@
 #include"main.h"
+<<<<<<< HEAD
 
 /**
  * times_table - prints the 9 times table starting with 0
@@ -37,3 +38,15 @@ void times_table(void);
 	}
 	_putchar('\n');
 	}
+=======
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    times_table();
+    return (0);
+}
+>>>>>>> 8006de0c959ecc64a8dcdf77c73aadd0a1608bb2

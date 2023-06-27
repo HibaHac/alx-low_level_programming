@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#include "main.h"
+>>>>>>> 8006de0c959ecc64a8dcdf77c73aadd0a1608bb2
 #include <unistd.h>
 
 /**
